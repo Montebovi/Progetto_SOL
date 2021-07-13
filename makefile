@@ -67,7 +67,7 @@ cleandata:
 	rm -f ./reader3/*;
 	rm -f ./espulsi/*;
 
-cleanall:  cleandata
+clean:  cleandata
 	chmod 777 ./build/*.*;
 	rm build/server; rm build/client; rm libs/libserverlib.so
 	echo "clean executed"
