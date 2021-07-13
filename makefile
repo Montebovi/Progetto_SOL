@@ -68,6 +68,7 @@ cleandata:
 	rm -f ./espulsi/*;
 
 cleanall:  cleandata
+	chmod 777 ./build/*.*;
 	rm build/server; rm build/client; rm libs/libserverlib.so
 	echo "clean executed"
 	
