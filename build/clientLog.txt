@@ -1,0 +1,128 @@
+[12 07 2021 19:37:18] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:18] - Prepare to execute -  CREATE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Executed - CREATE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:19] - Prepare to execute -  LOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Executed - LOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:19] - Prepare to execute -  WRITE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Executed - WRITE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  written bytes = 147888, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:19] - Prepare to execute -  UNLOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Executed - UNLOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:19] - Prepare to execute -  CLOSE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Executed - CLOSE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:19] - Chiusura Connessione
+[12 07 2021 19:37:19] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:19] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:19] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:19] - Prepare to execute -  CREATE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:19] - Prepare to execute -  CREATE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:19] - Executed - CREATE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:19] - Prepare to execute -  LOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:19] - Executed - CREATE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:19] - Prepare to execute -  LOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - LOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  WRITE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - LOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  WRITE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - WRITE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  written bytes = 147888, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  UNLOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - WRITE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  written bytes = 719140, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  UNLOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - UNLOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  CLOSE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - UNLOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  CLOSE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - CLOSE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Chiusura Connessione
+[12 07 2021 19:37:20] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:20] - Executed - CLOSE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Chiusura Connessione
+[12 07 2021 19:37:20] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:20] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:20] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:20] - Prepare to execute -  OPEN: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Prepare to execute -  OPEN: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:20] - Prepare to execute -  OPEN: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:20] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:20] - Prepare to execute -  OPEN: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Prepare to execute -  OPEN: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:20] - Prepare to execute -  OPEN: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - OPEN: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  LOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - OPEN: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Executed - OPEN: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  LOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Prepare to execute -  LOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - OPEN: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  LOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - LOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Executed - OPEN: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  LOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Prepare to execute -  READ: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - OPEN: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  LOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - LOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  READ: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - LOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  READ: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - READ: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  read bytes = 73944, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  UNLOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - READ: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  read bytes = 73944, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  UNLOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - UNLOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  CLOSE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - LOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  READ: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - CLOSE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Chiusura Connessione
+[12 07 2021 19:37:20] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:20] - Executed - READ: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  read bytes = 73944, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  UNLOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - LOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  READ: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - UNLOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  CLOSE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - ---------------------- Avvio client ----------------------
+[12 07 2021 19:37:20] - Prepare to execute -  READ n: 0
+[12 07 2021 19:37:20] - Executed - READ: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  read bytes = 73944, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  UNLOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - CLOSE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Chiusura Connessione
+[12 07 2021 19:37:20] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:20] - Executed - READ n: 0  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  OPEN: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf,../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf,../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - READ: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  read bytes = 73944, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  UNLOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - UNLOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  CLOSE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - LOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  READ: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - UNLOCK: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  CLOSE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - CLOSE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Chiusura Connessione
+[12 07 2021 19:37:20] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:20] - Executed - UNLOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  CLOSE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Executed - CLOSE: ../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Chiusura Connessione
+[12 07 2021 19:37:20] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:20] - Executed - CLOSE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Chiusura Connessione
+[12 07 2021 19:37:20] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:20] - Executed - OPEN: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf,../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf,../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  LOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf,../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf,../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Executed - READ: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  read bytes = 73944, (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  UNLOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - UNLOCK: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Prepare to execute -  CLOSE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Executed - CLOSE: ../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:20] - Chiusura Connessione
+[12 07 2021 19:37:20] - ---------------------- Terminazione Client ----------------------
+[12 07 2021 19:37:21] - Executed - LOCK: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf,../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf,../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:21] - Prepare to execute -  REMOVE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf,../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf,../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:21] - Executed - REMOVE: ../data_test/filetest1/testfile1.pdf,../data_test/filetest1/testfile1a.pdf,../data_test/filetest1/fat_file.docx,../data_test/filetest1/testfile1b.pdf,../data_test/filetest2/testfile1d.pdf,../data_test/filetest2/testfile1c.pdf  (result:0 ERR_NO_ERROR)
+[12 07 2021 19:37:21] - Chiusura Connessione
+[12 07 2021 19:37:21] - ---------------------- Terminazione Client ----------------------

@@ -1,0 +1,4 @@
+maxFiles = 100
+threadsWorkers = 8
+maxSize = 32
+sockname = ../thesocket

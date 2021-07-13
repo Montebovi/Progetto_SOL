@@ -1,0 +1,864 @@
+[12 07 2021 19:37:16] - --------------------------------------- AVVIO SERVER --------------------------------------- 
+[12 07 2021 19:37:16] - Lettura file di configurazione
+[12 07 2021 19:37:16] - Configurazione sockname:    [../thesocket]
+[12 07 2021 19:37:16] - Configurazione maxFiles:    [100]
+[12 07 2021 19:37:16] - Configurazione maxSize:     [32]
+[12 07 2021 19:37:16] - Configurazione num workers: [8]
+[12 07 2021 19:37:16] - Creazione 8 workers
+[12 07 2021 19:37:16] - In attesa di comandi
+[12 07 2021 19:37:18] - Accept connessione da client
+[12 07 2021 19:37:18] - In attesa di comandi
+[12 07 2021 19:37:18] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:18] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:18] - In attesa di comandi
+[12 07 2021 19:37:18] - [worker(2)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf flags:1
+[12 07 2021 19:37:18] - MEMORIA CACHE: Memoria occupata: 0 bytes su 32 MB
+[12 07 2021 19:37:18] - NUM FILES in CACHE: 1 su 100
+[12 07 2021 19:37:18] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:18] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:18] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:18] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(0)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf flags:1
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0 bytes su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(0)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0 bytes su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(1)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0 bytes su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_WRITE_FILE (3) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(2)] write file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf (size of data: 73944)
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.07 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_WRITE_FILE (3) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(1)] write file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf (size of data: 73944)
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(2)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(1)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(4)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(1)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - EOF da client
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - Accept connessione da client
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - Accept connessione da client
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(5)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx flags:1
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 3 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - [worker(5)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf flags:1
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 4 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - [worker(3)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf flags:1
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 5 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - [worker(0)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf flags:1
+[12 07 2021 19:37:19] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:19] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:19] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:19] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:19] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:19] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:19] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(3)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(3)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(0)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - [worker(5)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_WRITE_FILE (3) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_WRITE_FILE (3) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(2)] write file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf (size of data: 73944)
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.21 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] write file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx (size of data: 645196)
+[12 07 2021 19:37:20] - Lettura comando: CMD_WRITE_FILE (3) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.83 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] write file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf (size of data: 73944)
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.90 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_WRITE_FILE (3) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(2)] write file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf (size of data: 73944)
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - [worker(0)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(0)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(0)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(0)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(0)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(0)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(0)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - EOF da client
+[12 07 2021 19:37:20] - [worker(0)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - EOF da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Accept connessione da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Accept connessione da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Accept connessione da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Accept connessione da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Accept connessione da client
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 4
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 5
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Accept connessione da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 6
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(3)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf flags:0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - [worker(1)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf flags:0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - [worker(7)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx flags:0
+[12 07 2021 19:37:20] - [worker(6)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf flags:0
+[12 07 2021 19:37:20] - [worker(5)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf flags:0
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx flags:0
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - [worker(6)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf flags:0
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - [worker(5)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf flags:0
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - [worker(6)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf flags:0
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf flags:0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - [worker(6)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf flags:0
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 4
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(0)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(0)] lockfile WAIT /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - WAIT: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 4
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 5
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf flags:0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - [worker(2)] lockfile WAIT /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - WAIT: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 4
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(3)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - [worker(7)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - [worker(3)] lockfile WAIT /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - WAIT: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - [worker(4)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(1)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(1)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(1)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(7)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(7)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - [worker(1)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(7)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - WAKEUP: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - WAKEUP: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - WAKEUP: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - [worker(2)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - [worker(3)] lockfile WAIT /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(0)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - [worker(7)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - WAIT: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - WAKEUP: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - [worker(3)] lockfile WAIT /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - WAIT: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - [worker(7)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - EOF da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(7)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 4
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Accept connessione da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_N_FILE (9) - (null)
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 5
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(4)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - [worker(5)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(4)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - [worker(5)] read N files  (N=0)
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - WAKEUP: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - [worker(3)] lockfile WAIT /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - WAIT: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(6)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(6)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(6)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - WAKEUP: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - EOF da client
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(0)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - [worker(1)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - [worker(1)] lockfile WAIT /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - WAIT: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 4
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(4)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(4)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - WAKEUP: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(1)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf flags:0
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - [worker(3)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(4)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 3
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 4
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 5
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(6)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(6)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - EOF da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(5)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf flags:0
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx flags:0
+[12 07 2021 19:37:20] - EOF da client
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - EOF da client
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(6)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf flags:0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_READ_FILE (2) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(2)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf flags:0
+[12 07 2021 19:37:20] - [worker(3)] read file data /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - Lettura comando: CMD_OPEN_FILE (1) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(2)] openfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf flags:0
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(4)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(4)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - Lettura comando: CMD_UNLOCK_FILE (6) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(7)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:20] - [worker(0)] unlockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(2)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(2)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - Lettura comando: CMD_CLOSE_FILE (7) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 2
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - [worker(5)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - [worker(5)] closefile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - SIGNAL: /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - [worker(6)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:20] - EOF da client
+[12 07 2021 19:37:20] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:20] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:20] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:20] - Lettura comando: CMD_LOCK_FILE (5) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:20] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:20] - In attesa di comandi
+[12 07 2021 19:37:21] - [worker(4)] lockfile /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:21] - MEMORIA CACHE: Memoria occupata: 0.97 MB su 32 MB
+[12 07 2021 19:37:21] - NUM FILES in CACHE: 6 su 100
+[12 07 2021 19:37:21] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:21] - Lettura comando: CMD_REMOVE_FILE (8) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:21] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:21] - In attesa di comandi
+[12 07 2021 19:37:21] - [worker(6)] remove file /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1.pdf
+[12 07 2021 19:37:21] - MEMORIA CACHE: Memoria occupata: 0.90 MB su 32 MB
+[12 07 2021 19:37:21] - NUM FILES in CACHE: 5 su 100
+[12 07 2021 19:37:21] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:21] - Lettura comando: CMD_REMOVE_FILE (8) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:21] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:21] - In attesa di comandi
+[12 07 2021 19:37:21] - [worker(2)] remove file /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1a.pdf
+[12 07 2021 19:37:21] - MEMORIA CACHE: Memoria occupata: 0.83 MB su 32 MB
+[12 07 2021 19:37:21] - NUM FILES in CACHE: 4 su 100
+[12 07 2021 19:37:21] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:21] - Lettura comando: CMD_REMOVE_FILE (8) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:21] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:21] - In attesa di comandi
+[12 07 2021 19:37:21] - [worker(1)] remove file /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/fat_file.docx
+[12 07 2021 19:37:21] - MEMORIA CACHE: Memoria occupata: 0.21 MB su 32 MB
+[12 07 2021 19:37:21] - NUM FILES in CACHE: 3 su 100
+[12 07 2021 19:37:21] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:21] - Lettura comando: CMD_REMOVE_FILE (8) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:21] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:21] - In attesa di comandi
+[12 07 2021 19:37:21] - [worker(0)] remove file /home/osboxes/Desktop/progetto_michele_2/data_test/filetest1/testfile1b.pdf
+[12 07 2021 19:37:21] - MEMORIA CACHE: Memoria occupata: 0.14 MB su 32 MB
+[12 07 2021 19:37:21] - NUM FILES in CACHE: 2 su 100
+[12 07 2021 19:37:21] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:21] - Lettura comando: CMD_REMOVE_FILE (8) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:21] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:21] - In attesa di comandi
+[12 07 2021 19:37:21] - [worker(3)] remove file /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1d.pdf
+[12 07 2021 19:37:21] - MEMORIA CACHE: Memoria occupata: 0.07 MB su 32 MB
+[12 07 2021 19:37:21] - NUM FILES in CACHE: 1 su 100
+[12 07 2021 19:37:21] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:21] - Lettura comando: CMD_REMOVE_FILE (8) - /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:21] - Dimensione corrente coda dei comandi; 1
+[12 07 2021 19:37:21] - In attesa di comandi
+[12 07 2021 19:37:21] - [worker(7)] remove file /home/osboxes/Desktop/progetto_michele_2/data_test/filetest2/testfile1c.pdf
+[12 07 2021 19:37:21] - MEMORIA CACHE: Memoria occupata: 0 bytes su 32 MB
+[12 07 2021 19:37:21] - NUM FILES in CACHE: 0 su 100
+[12 07 2021 19:37:21] - NUM FILES totali esplusi: 0
+[12 07 2021 19:37:21] - EOF da client
+[12 07 2021 19:37:21] - In attesa di comandi
+[12 07 2021 19:37:22] - Attesa conclusione workers
+[12 07 2021 19:37:22] - worker (2) - terminato
+[12 07 2021 19:37:22] - worker (7) - terminato
+[12 07 2021 19:37:22] - worker (3) - terminato
+[12 07 2021 19:37:22] - worker (0) - terminato
+[12 07 2021 19:37:22] - worker (1) - terminato
+[12 07 2021 19:37:22] - worker (6) - terminato
+[12 07 2021 19:37:22] - worker (5) - terminato
+[12 07 2021 19:37:22] - worker (4) - terminato
+[12 07 2021 19:37:22] - Workers terminati
+[12 07 2021 19:37:22] - Uscito SIGINT=1
+
+[12 07 2021 19:37:22] - --------------------------------------- TERMINAZIONE SERVER --------------------------------------- 
